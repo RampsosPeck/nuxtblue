@@ -87,6 +87,12 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  head: {
+    title: 'AUxxxx pagina de inicio',
+    meta: [
+      {hid: 'description', name: 'description', content: 'Esta la página de nuxt js por jorge'}
+    ]
   }
 }
 </script>
